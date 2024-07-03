@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cranes</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <script 
+    src="https://kit.fontawesome.com/64d58efce2.js"
+    crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <div id="home">a</div>
+    <header>
+      <div class="cont">
+        <div class="logo">HELLO CRANES</div>
+        <img src="moving_crane_gif.gif" alt="" id="movingImg">
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About us</a></li>
+        <li><a href="#Equipment">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <div class="content">
+      <h1>Safe, Dependable & Cost Effective</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+        quibusdam corporis
+      </p>  
+    </div>
+
+    <div class="slider-frame">
+      <div class="slide-images">
+              <div class="img-container">
+                  <img src="inner_banner3.jpg">
+              </div>
+              <div class="img-container">
+                  <img src="inner_banner4.jpg">
+              </div>
+              <div class="img-container">
+                  <img src="inner_banner5.jpg">
+              </div>
+      </div>
+  </div>
+
+  <a id="About" href="">x</a>
+
+    <div  class="heading">
+      <h1>About Us</h1>
+    </div>
+
+
+    <div class="container">
+      
+      <section class="about">
+        <div class="about-img">
+          <img src="Screenshot 2023-05-25 143550.png">
+        </div>
+        <div class="about-content">
+          <h2>Hello Cranes</h2>
+          <p>HELLO CRANES rental service founded in the year 2006 is noted as being one of the largest in Bangalore.<br>Our services ensure the timeliness and efficiency of your resources.<br>We have the resources and the manpower to specialize in maintenance shutdowns, plant installations and equipment removal.
+            With a huge network of service team expertise and a complete range of service products, Hello Cranes Service provides all over Bangalore and other parts like Malur, Nanajangud, Mysore</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </section>
+    </div>
+
+    
+
+    <div id="Equipment" class="heading2">
+      <h1>Contact Us</h1>
+    </div>
+    <section class="banner"></section>
+
+    <div class="container2">
+
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>92 Cherry Drive Uniondale, NY 11553</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>lorem@ipsum.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>123-456-789</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Feed Back</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
